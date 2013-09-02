@@ -1,0 +1,218 @@
+/* CLASS REPORT CSS */
+@media only screen and (max-width: 1024px) { 
+
+.lessons {
+	font-size:14px;
+}
+
+}
+
+h5 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	margin: 20px 3% 0;
+	padding: 10px 0;
+}
+
+.header {
+	background: linear-gradient(to bottom, #F1F1F1 0%, #E1E1E1 100%) repeat scroll 0 0 transparent;
+	height:25px;
+	color:#333333;
+	font-size:11px;
+	border-bottom: 1px #CCCCCC solid;
+	vertical-align:middle;
+}
+	
+.header a:link {
+	color:#333333;
+	font-size:11px;
+}
+	
+.empty {
+	background: linear-gradient(to bottom, #F1F1F1 0%, #E1E1E1 100%) repeat scroll 0 0 transparent;
+	border-bottom: 1px #CCCCCC solid;
+}
+
+.tablesorter td.bold {
+	font-weight:bold;
+	padding-right:5px;
+	text-align:right;
+}
+	
+.tablesorter {
+	font-size:12px;
+}
+	
+.tablesorter thead tr {	
+	height: 34px;
+	cursor: pointer;
+	text-align: center;
+	text-indent:0px;
+}
+
+.tablesorter thead th {
+	padding-top:0px;
+	color:#333333;
+}
+
+.tablesorter thead th a:link {
+	padding-top:0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 12px;
+	color:#333;
+}
+
+.tablesorter thead th a:link {
+	color:#333333;
+}
+
+.tablesorter td {
+	text-align:center;
+}
+	
+.ui-accordion-header  {
+	color: #1F1F20;
+	font-size: 13px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #FFFFFF;
+	text-transform: uppercase;
+}
+
+.styled-select select {
+	background: transparent;
+	width: 100px;
+	padding-left: 0px;
+	padding-top: 9px;
+	border: 0px solid #ccc;
+	height: 34px;
+	overflow:hidden;
+}
+
+.webkit .styled-select select {
+	background: transparent;
+	width: 100px;
+	padding-left: 0px;
+	padding-top: 0px;
+	border: 0px solid #ccc;
+	height: 34px;
+	overflow:hidden;
+} 
+
+.tspan {
+	font-size:11px;
+}
+   
+.fontnine {
+	font-size:9px;
+}
+      
+.fonteleven {
+	font-size:11px;
+}
+      
+.wsix {
+	width:600px; 
+}
+
+@media print {
+	
+@page {
+	margin-top:50px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:100px;
+}
+	
+.fonteleven {
+	 font-size:8px;
+	 font-family:Arial, Helvetica, sans-serif;
+	 padding:0px;
+}
+  
+.header {
+	background: linear-gradient(to bottom, #F1F1F1 0%, #E1E1E1 100%) repeat scroll 0 0 transparent;
+	height:25px;
+	color:#333333;
+	font-size:7px;
+	font-family:Arial, Helvetica, sans-serif;
+    padding:0px;
+	border-bottom: 1px #CCCCCC solid;
+	vertical-align:middle;
+}
+	
+.header a:link {
+	color:#333333;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:7px;
+}
+
+.tablesorter thead tr {	
+	height: 34px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	text-indent:0px;
+}
+
+.summary0pt2 td {
+	color: black;
+	font-size:12px;
+}
+
+}
+
+/** FOR CHROME BROWSER **/
+@media print and (-webkit-min-device-pixel-ratio:0) {
+	
+@page {
+	margin:0 auto;
+	size: landscape;
+}
+
+.fonteleven {
+	 font-size:11px;
+	 font-family:Arial, Helvetica, sans-serif;
+	 padding:0px;
+}
+	
+.header {
+	background: linear-gradient(to bottom, #F1F1F1 0%, #E1E1E1 100%) repeat scroll 0 0 transparent;
+	height:25px;
+	color:#333333;
+	border-bottom: 1px #CCCCCC solid;
+	vertical-align:middle;
+	font-size:11px;
+}
+
+.header tablesorter thead th {
+	padding-top:0px;
+	color:#333333;
+}
+	
+.header tablesorter thead th a:link {
+	color:#333333;
+}
+	
+.bold {
+	color: black;
+}
+
+.tablesorter td {
+	color: black;
+}
+
+.tab_content p {
+	color: black;
+}
+
+h3.tabs_involved {
+	color: #1F1F20;
+    font-size: 10px;
+    margin: 8px 20px;
+    text-shadow:none;
+    text-transform: uppercase;
+	font-weight:bold;
+ }
+ 
+}

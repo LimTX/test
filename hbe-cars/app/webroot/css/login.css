@@ -1,0 +1,120 @@
+/**
+body {
+	background: url(../images/sidebar.png) repeat;
+} 
+**/
+
+body {
+ 
+background:url('../img/bgbg.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ 
+}
+
+.main-wrapper {
+    min-height: 20px;
+    overflow: auto;
+    padding: 10px;
+    width: 550px;
+	margin:0 auto;
+}
+
+.wrapper {
+	border:1px solid #f0f0f0;
+	background:url('../img/borderwrapper.png') repeat;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px;
+ 	-webkit-border-radius: 5px;
+    font-family: Helvetica,Arial,sans-serif;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    min-height: 20px;
+    overflow: auto;
+    padding: 10px;
+    width: 420px;
+	margin:0 auto;
+}
+
+label.error {
+	color: red;
+	font-family:'Maven Pro', sans-serif;
+	font-size:11px;
+	padding-left:0px;
+	text-align:right;
+}
+
+.cmxform fieldset p.error label {
+	color: red;
+	text-align:right;
+}
+
+.error-message {
+	font-family:'Maven Pro', sans-serif;
+	font-size:9px;
+	color:red;
+	text-align:left;
+}
+
+.copyright {
+    color: #fff;
+	font-family: 'Maven Pro',sans-serif;
+	text-shadow:none;
+	font-size:13px;
+	text-decoration: none;
+    min-height: 20px;
+    overflow: auto;
+    padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    width: 420px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.leftlogin {
+	text-align:left;
+	padding-left:83px;
+	font-size:14px;
+	padding-top:14px;
+	padding-bottom:10px;
+	color:#353536;
+}
+
+.forgotpassword {
+	text-align:left;
+	font-size:14px;
+	color:#666;
+	padding-left:33px;
+}
+
+.loginbtn {
+	padding-left:150px;
+}
+
+.loginpanel {
+	border-radius: 5px 5px 5px 5px;
+	background: url(../img/top-header.png) repeat-x top left;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    color: #fff;
+	font-family: 'Maven Pro',sans-serif;
+	font-size:32px;
+	text-align:center;
+	padding-top:22px;
+	padding-bottom:20px;
+	text-decoration: none;
+    min-height: 335px;
+    overflow: hidden;
+    position: relative;
+    width: 420px;
+	background-color:white;
+}
+
+.logintext a {
+    color: #fff;
+	font-family: 'Maven Pro',sans-serif;
+	font-size:32px;
+	text-align:center;
+}

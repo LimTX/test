@@ -1,0 +1,61 @@
+/* 
+	Required Styles
+*/
+#aToolTip {
+	position: absolute;
+	display: none;
+	z-index: 50000;
+}
+
+	#aToolTip .aToolTipContent {
+		position:relative;
+		margin:0;
+		padding:0;
+	}
+/* 
+	END: Required Styles
+*/
+/**
+	Default Theme
+*/
+.defaultTheme {
+	border:2px solid #f6fafa;
+	background:#f6fafa;
+	font-family:'Maven Pro', sans-serif; 
+	margin:0;
+	padding:6px 12px;	
+	-moz-border-radius: 12px 12px 12px 0;
+	-webkit-border-radius: 12px 12px 12px 0;
+	-khtml-border-radius: 12px 12px 12px 0;
+	border-radius: 12px 12px 12px 0;
+		box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+	
+	/**-moz-box-shadow: 2px 2px 5px #CCCCCC; /* for Firefox 3.5+ */
+	/**-webkit-box-shadow: 2px 2px 5px #CCCCCC; /* for Safari and Chrome */
+	/**box-shadow: 2px 2px 5px #CCCCCC; /* for Safari and Chrome */
+}
+
+.normalTip p {
+	color:#FFFFFF;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.normalTip:link {
+	font-size:16px;
+}
+
+	
+	.defaultTheme #aToolTipCloseBtn {
+		display:block;
+		height:18px;
+		width:18px;
+		background:url(../images/closeBtn.png) no-repeat;
+		text-indent:-9999px;
+		outline:none;
+		position:absolute;
+		top:-20px;
+		right:-30px;
+		margin:2px;
+		padding:4px;
+	}

@@ -1,0 +1,327 @@
+#minicart {
+	color: #6D6E71;
+    font-family: 'Maven Pro',sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+	width:262px;
+	padding-top:5px;
+	margin-right:35px;
+	list-style-type:none;
+	background-image:url(../img/box_content_bg.png);
+	background-position:10px -10px;
+	background-color:#f6fafa;
+	line-height:120%;
+	min-height:100px;
+}
+
+#minicart td {
+    padding: 5px;
+}
+
+.dotyline {
+		background-image:url(../img/box_footer_bg.jpg);
+		height:50px;
+		background-position:center center;
+}
+
+#main_body_container {
+    width: 390px;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+#main_cart_container {
+    width: 550px;
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding: 5px;
+}
+
+
+#right_nav_container {
+    width: 150px;
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+
+div.disabled {
+    display: inline;
+    float: none;
+    clear: none;
+    color: #C0C0C0;
+} 
+
+.product_container {
+    width: 160px;
+    display: inline;
+    float: left;
+    margin: 5px;
+}
+
+/* Left Nav */
+#leftnav {
+	width: 150px;
+	font-size: 12px;
+	vertical-align: top;
+	font-size: 85%;
+	display: inline;
+	float: left;
+}
+
+ul, ol {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#leftnav a {
+	padding: 3px; 
+	display: block;
+	border: 1px dotted #CCC;
+	text-decoration: none;
+	line-height: 1em;
+	width: 150px;
+}
+
+#leftnav a:link, #leftnav a:visited {
+	color: #666;
+}
+
+#leftnav a:hover, #leftnav a:active {
+	color: #FFFFFF;
+	background-color: #6699CC;
+	border: 1px solid #000;
+}
+
+#leftnav ul {
+	padding: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	list-style-type: none;
+}
+
+#leftnav li {
+	margin: 0px 0px 6px 0px;	
+}
+
+#current a {
+	color: #FF0 !important;
+	/* background-color: #999999 !important; */
+	/** border: 2px dotted #999 !important; **/
+}
+
+/*  Shop CSS */
+.entryTable {
+	font-family:'Maven Pro', sans-serif;
+	font-size: 14px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	border:1px solid #d8ebea;
+	padding:5px;
+}
+
+.entryTableHeader {
+	font-family:'Maven Pro', sans-serif;
+	font-size: 14px;
+	height:40px;
+	color: #4D5353;
+	padding:5px;
+	background-color: #f8f6f2;
+	font-weight: bold;
+	background-position: center;
+}
+
+#entryTable th {
+	padding: 12px 17px 12px 17px;
+	font-weight: normal;
+	font-size: 16px;
+	background-color:#fff;
+	color: #4D5353;
+	font-weight: bold;
+	border-bottom: 1px dashed #69c;
+}
+#entryTable td {
+	padding: 7px 17px 7px 17px;
+	color: #669;
+}
+
+#entryTable tbody tr:hover td {
+	background-color:#ece8e8;
+	color:#FFF;
+}
+#entryTable tr:nth-child(odd) {
+	background-color:#ebf2f1;
+}
+
+.entryTable .label {
+	background-color: #EFEFEF;
+}
+
+.entryTable .content {
+	background-color: #FFFFFF;
+	padding:5px;
+}
+
+
+.infoTable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #DDDDDD;
+}
+
+.infoTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #7F92A4;
+	font-weight: bold;
+	background-position: center;
+}
+
+.infoTable .label {
+	background-color: #EFEFEF;
+}
+
+.infoTable .content {
+	background-color: #FFFFFF;
+}
+
+.box {
+	display:block;
+	cursor:pointer;
+	border:0px;
+	font-family:'Maven Pro', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	border-radius: 0.4em;
+	-webkit-appearance: none;
+	background-color:#EA6402;
+	text-decoration: none;
+	text-align:center;
+	min-width: 175px;
+	padding:10px;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.btndelete {
+	display:block;
+	cursor:pointer;
+	border:0px;
+	font-family:'Maven Pro', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	border-radius: 0.4em;
+	-webkit-appearance: none;
+	background-color:#EA6402;
+	text-decoration: none;
+	text-align:center;
+	min-width: 40px;
+	padding:10px;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.btndeleteRemove {
+	display:block;
+	cursor:pointer;
+	border:0px;
+	font-family:'Maven Pro', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	border-radius: 0.4em;
+	-webkit-appearance: none;
+	background-color:#A2B420;
+	text-decoration: none;
+	text-align:center;
+	min-width: 40px;
+	padding:10px;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.box4 .submit input {
+	display:block;
+	cursor:pointer;
+	border:0px;
+	font-family:'Maven Pro', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	border-radius: 0.4em;
+	-webkit-appearance: none;
+	background-color:#A2B420;
+	text-decoration: none;
+	text-align:center;
+	width: 25px;
+	padding:10px;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.box3 {
+	display:block;
+	cursor:pointer;
+	border:0px;
+	font-family:'Maven Pro', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	border-radius: 0.4em;
+	-webkit-appearance: none;
+	background-color:#EA6402;
+	text-decoration: none;
+	text-align:center;
+	min-width: 175px;
+	padding:10px;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.box2 {
+	display:block;
+	cursor:pointer;
+	border:0px;
+	font-family:'Maven Pro', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	border-radius: 0.4em;
+	-webkit-appearance: none;
+	background-color:#EA6402;
+	text-decoration: none;
+	text-align:center;
+	min-width: 75px;
+	padding:10px;
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}
+
+.box3 button:hover {
+	color: white;
+	cursor:pointer;
+	-webkit-appearance: none;
+	background-color:#a2b420;
+}
+
+.notice {
+	color: #996600;
+	font-weight: bold;
+}
+
+.addToCartButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#333333;
+	font-weight:bold;
+	border: 1px solid #336699;
+	background-color:#FFCC00;
+}
+
+#errorMessage {
+	color: #990000;
+	font-weight: bold;
+}
